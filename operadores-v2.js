@@ -7,7 +7,7 @@ function Somar() {
     document.getElementById('resultado').style.display = 'flex';
 
 
-
+//obter elemento e utiliza-lo (escrever um cod html)
     // document.getElementById('resultado').innerHTML = 
     // `
     // <h2>Memória de Cálculo</h2>
@@ -19,6 +19,7 @@ function Somar() {
     //     </ul>
     // `;  
     const resultado = document.getElementById('resultado');
+    console.log(resultado);
     resultado.innerHTML = 
     `
     <h2>Memória de Cálculo</h2>
